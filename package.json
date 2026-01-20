@@ -11,7 +11,6 @@
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.126",
-    "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "@types/react-router-dom": "^5.3.3",
     "framer-motion": "^12.23.3",
@@ -50,6 +49,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react": "^19.2.8",
     "gh-pages": "^6.3.0"
   }
 }

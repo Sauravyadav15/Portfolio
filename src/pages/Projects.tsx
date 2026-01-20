@@ -48,32 +48,46 @@ const Projects: React.FC = () => {
       featured: true,
       hasCode: true
     },
-    {
-      id: 3,
-      title: "911 Dispatcher Multitasking Test Device",
-      description: "Engineered a real-time automated testing prototype for Toronto Police to assess 911 dispatcher multitasking using Python and Arduino. Integrated 4 cognitive modules with synchronized test flow, dynamic UIs, and serial communication. Built Arduino-based embedded system with 10+ components and integrated facial emotion recognition via OpenCV.",
-      technologies: ["Python", "Arduino", "C++", "OpenCV", "Deep Learning", "Serial Communication"],
-      githubUrl: "",
-      liveUrl: "",
-      image: "https://via.placeholder.com/400x250/1a1a1a/00d4ff?text=911+Dispatcher+Test",
-      category: "Embedded Systems",
-      featured: true,
-      hasCode: false
-    },
+    // {
+    //   id: 3,
+    //   title: "911 Dispatcher Multitasking Test Device",
+    //   description: "Engineered a real-time automated testing prototype for Toronto Police to assess 911 dispatcher multitasking using Python and Arduino. Integrated 4 cognitive modules with synchronized test flow, dynamic UIs, and serial communication. Built Arduino-based embedded system with 10+ components and integrated facial emotion recognition via OpenCV.",
+    //   technologies: ["Python", "Arduino", "C++", "OpenCV", "Deep Learning", "Serial Communication"],
+    //   githubUrl: "",
+    //   liveUrl: "",
+    //   image: "https://via.placeholder.com/400x250/1a1a1a/00d4ff?text=911+Dispatcher+Test",
+    //   category: "Embedded Systems",
+    //   featured: true,
+    //   hasCode: false
+    // },
+    // {
+    //   id: 4,
+    //   title: "User Authentication Dashboard",
+    //   description: "Designed and developed a full-stack user authentication system using the MERN stack and REST API with signup/login features, dynamic user dashboard, and responsive UI. Utilized MongoDB for secure storage, React for frontend, and Express/Node for real-time API interactions.",
+    //   technologies: ["React", "Node.js", "MongoDB", "Express", "REST API", "HTML/CSS"],
+    //   githubUrl: "https://github.com/Sauravyadav15",
+    //   liveUrl: "",
+    //   image: "https://www.bytewebster.com/frontendprojects/uploads/images/css-javascript-form-bytewebster.png",
+    //   category: "Full Stack",
+    //   featured: true,
+    //   hasCode: true
+    // },
+    
+  {
+    id: 3,
+    title: "KHacks — Chat & File Session Platform",
+    description: "Full-stack project providing a chat/storytelling assistant and file/session management. Backend implemented with FastAPI + SQLite (chat history, sessions, file metadata, migration scripts) and integrations for Backboard and document indexing. Frontend is a Vite-based web client (TypeScript/JS + Tailwind) that communicates with the backend API.",
+    technologies: ["Python", "FastAPI", "SQLite", "uvicorn", "TypeScript", "Vite", "Tailwind CSS", "JavaScript", "Backboard SDK", "llama-index"],
+    githubUrl: "https://github.com/Sauravyadav15/KHacks",
+    liveUrl: "",
+    image: "https://raw.githubusercontent.com/Sauravyadav15/KHacks/main/logo.png",
+    category: "Full-stack Web Application",
+    featured: false,
+    hasCode: true
+  },
+
     {
       id: 4,
-      title: "User Authentication Dashboard",
-      description: "Designed and developed a full-stack user authentication system using the MERN stack and REST API with signup/login features, dynamic user dashboard, and responsive UI. Utilized MongoDB for secure storage, React for frontend, and Express/Node for real-time API interactions.",
-      technologies: ["React", "Node.js", "MongoDB", "Express", "REST API", "HTML/CSS"],
-      githubUrl: "https://github.com/Sauravyadav15",
-      liveUrl: "",
-      image: "https://www.bytewebster.com/frontendprojects/uploads/images/css-javascript-form-bytewebster.png",
-      category: "Full Stack",
-      featured: true,
-      hasCode: true
-    },
-    {
-      id: 5,
       title: "AMS Website Design",
       description: "Designed wireframes and front page layout for AMS (Association of Management Students) website using Figma. Created user interface mockups focusing on modern design principles and improved user experience for the organization's digital presence.",
       technologies: ["Figma", "UI/UX Design", "Wireframing", "Web Design", "Prototyping"],
