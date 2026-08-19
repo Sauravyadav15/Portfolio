@@ -60,22 +60,26 @@ const About: React.FC = () => {
         >
           <h2>Background</h2>
           <p>
-            I'm a passionate Engineering student at Queen's University, deeply fascinated by the ever-evolving world of technology. 
-            My journey began with web development, where I discovered my love for creating digital experiences 
-            that bridge the gap between users and technology.
+            I'm a passionate Engineering student at Queen's University, deeply fascinated by the ever-evolving world of technology.
+            My journey began with web development, where I discovered my love for creating digital experiences
+            that bridge the gap between users and technology, and it has since grown into a broader interest in
+            applied machine learning and computer vision.
           </p>
           <p>
-            Currently working as a Web Development Intern at Bellurbis Technologies, I'm building full-stack applications 
-            using the MERN stack and implementing performance optimizations like Redis caching. My expertise 
-            lies in the MERN stack (MongoDB, Express.js, React, Node.js), and I have comprehensive knowledge 
-            of Git and GitHub for version control and collaborative development workflows.
+            As a Machine Learning Research Assistant, I build applied computer vision pipelines end-to-end,
+            from dataset collection and augmentation to training PyTorch and TensorFlow models with YOLO and
+            XGBoost. As a Software Developer on Queen's EngSoc team, I designed a cookie-based OAuth2
+            authentication system with role-based access control, backed by Dockerized services and
+            GitHub Actions CI/CD pipelines. Alongside these roles, I'm building full-stack applications at
+            Bellurbis Technologies using the MERN stack with Redis caching for performance.
           </p>
           <p>
-            I'm also actively involved in the Queen's Racing Formula SAE Team, working on automotive software 
-            and embedded systems. My interests span across web development, embedded systems, and various 
-            emerging technologies that are shaping the future of computing. I believe there's always more to 
-            learn and explore in this dynamic field, and I'm excited to continue growing my skills while 
-            contributing to meaningful projects that push the boundaries of what's possible with technology.
+            Outside of work, I build my own projects end-to-end, from a receipt-splitting app with OCR and
+            debt-simplification logic to an AI concierge platform for local businesses, and I'm actively
+            involved in the Queen's Racing Formula SAE Team, working on automotive software and embedded
+            systems. My interests span full-stack development, applied ML/computer vision, and backend
+            security, and I'm excited to keep growing across all of them while contributing to meaningful,
+            real-world projects.
           </p>
         </motion.div>
       </div>
@@ -89,8 +93,16 @@ const About: React.FC = () => {
         <h2>Interests & Hobbies</h2>
         <div className="interests-grid">
           <div className="interest-item">
-            <h3>MERN Stack Development</h3>
-            <p>Building full-stack applications using MongoDB, Express.js, React, and Node.js with Redis caching and performance optimization</p>
+            <h3>Machine Learning & Computer Vision</h3>
+            <p>Building applied CV pipelines with PyTorch, TensorFlow/Keras, YOLO, and XGBoost, validated against real-world imagery</p>
+          </div>
+          <div className="interest-item">
+            <h3>Full-Stack Web Development</h3>
+            <p>Building end-to-end applications with React, Node.js/Express, and FastAPI, from the MERN stack to Python backends</p>
+          </div>
+          <div className="interest-item">
+            <h3>Backend Security & DevOps</h3>
+            <p>Designing OAuth2/RBAC authentication systems, Dockerized services, and GitHub Actions CI/CD pipelines</p>
           </div>
           <div className="interest-item">
             <h3>Embedded Systems</h3>
@@ -117,15 +129,15 @@ const About: React.FC = () => {
         <div className="goals-list">
           <div className="goal-item">
             <h3>Short Term</h3>
-            <p>Complete the website project at Bellurbis Technologies and continue learning more tech stack and explore new technologies.</p>
+            <p>Deliver strong results on my current computer vision research project and the EngSoc authentication platform, while continuing to build full-stack projects at Bellurbis Technologies.</p>
           </div>
           <div className="goal-item">
             <h3>Medium Term</h3>
-            <p>Able to make the app and website scalable and efficient and Practicing DSA questions consistently</p>
+            <p>Build scalable, production-grade applications and ML systems, deepen my expertise in applied computer vision, and practice DSA consistently.</p>
           </div>
           <div className="goal-item">
             <h3>Long Term</h3>
-            <p>Being able to delve and learn any technology specially in AI and development. Master core concepts of computer science (Networking, Database, Algorithms, Operating Systems, etc.)</p>
+            <p>Specialize further in AI and machine learning while mastering core computer science fundamentals (Networking, Databases, Algorithms, Operating Systems) to build reliable, real-world intelligent systems.</p>
           </div>
         </div>
       </motion.div>

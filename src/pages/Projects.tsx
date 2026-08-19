@@ -30,7 +30,7 @@ const Projects: React.FC = () => {
       description: "A full-stack expense-splitting app that lets groups scan a receipt and automatically divide the bill. Users photograph a receipt, a self-hosted OCR pipeline extracts the line items for manual review, and costs are distributed across group members while a greedy debt-simplification algorithm minimizes the number of settlement transactions needed. Built as two independently deployable apps (client + server) in one repository, with JWT-based authentication and full API documentation.",
       technologies: ["React 19", "Vite", "Express 5", "PostgreSQL", "Node.js", "JWT Auth", "OCR"],
       githubUrl: "https://github.com/Sauravyadav15/BillSplitterApp",
-      liveUrl: "https://bill-splitter-app-pied.vercel.app",
+      liveUrl: "https://www.smartbillsplit.com/",
       image: `${process.env.PUBLIC_URL}/images/bill-splitter-thumbnail.png`,
       category: "Full Stack",
       featured: true,
