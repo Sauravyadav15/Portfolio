@@ -16,7 +16,7 @@ const Home: React.FC = () => {
           Hi, I'm <span className="highlight">Saurav Kumar</span>
         </h1>
         <h2 className="hero-subtitle">
-          Computer Engineering Student & Web Developer
+          Computer Engineering Student, Building Full-Stack & ML Systems
         </h2>
         <p className="hero-description">
           I'm a Computer Engineering student at Queen's University who likes building things end-to-end from backend architecture to the model that powers a feature.
