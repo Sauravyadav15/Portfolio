@@ -6,6 +6,37 @@ const Experience: React.FC = () => {
   const experiences = [
     {
       id: 1,
+      title: "Machine Learning Research Assistant",
+      company: "Queen's University",
+      location: "Kingston, ON",
+      duration: "May 2026 - Present",
+      type: "Research",
+      description: "Conducting applied computer vision research on a confidential project, from dataset creation and augmentation to deep learning model training and a multi-stage inference pipeline.",
+      achievements: [
+        "Collected and prepared 1,500+ real-world images for a confidential computer vision research project, including preprocessing, Roboflow-based labeling/annotation, and dataset quality checks",
+        "Expanded the training dataset to approximately 12,000 images using data augmentation techniques to improve dataset diversity and model robustness",
+        "Trained deep learning models using PyTorch and TensorFlow on GPU infrastructure, tuning hyperparameters such as batch size and epoch count, and implementing early stopping with a patience of 20 epochs to prevent overfitting and reduce unnecessary training time",
+        "Supported a multi-stage model pipeline using YOLOv11 for object detection/cropping and XGBoost for downstream classification, achieving approximately 89.2% accuracy on available evaluation data"
+      ],
+      technologies: ["PyTorch", "TensorFlow", "YOLOv11", "XGBoost", "Roboflow", "Data Augmentation", "GPU Training"]
+    },
+    {
+      id: 2,
+      title: "Software Developer",
+      company: "EngSoc Software Development Team, Queen's University",
+      location: "Kingston, ON",
+      duration: "Sept 2025 - April 2026",
+      type: "Team Member",
+      description: "Building the authentication backbone for EngSoc's platform, architected to scale for 5,000+ Queen's University students.",
+      achievements: [
+        "Designed and implemented a secure cookie-based authentication system using OAuth2 (Google) and server-side sessions, with role-based access control, architected to scale for 5,000+ student users",
+        "Built and tested OAuth-based login flows using Node.js and Express, with automated integration tests (Jest, Supertest) achieving a 100% pass rate in CI",
+        "Dockerized backend services and configured GitHub Actions CI/CD pipelines to automate testing and deployments, reducing manual deployment effort by ~60%"
+      ],
+      technologies: ["Node.js", "Express", "OAuth2", "Docker", "GitHub Actions", "Jest", "Supertest", "RBAC"]
+    },
+    {
+      id: 3,
       title: "Web Development Intern",
       company: "Bellurbis Technologies",
       location: "Gurgaon, India",
@@ -20,7 +51,7 @@ const Experience: React.FC = () => {
       technologies: ["React", "Node.js", "MongoDB", "Express", "Redis", "REST API"]
     },
     {
-      id: 2,
+      id: 4,
       title: "Automotive Software and Electronics Member",
       company: "Queen's Racing Formula SAE Team",
       location: "Ontario, Canada",
@@ -36,7 +67,7 @@ const Experience: React.FC = () => {
       technologies: ["C++", "Arduino", "Embedded Systems", "Automotive Software", "Serial Communication"]
     },
     {
-      id: 3,
+      id: 5,
       title: "Social Impact Intern",
       company: "Paschnim Banga Khet Majoor Samiti",
       location: "West Bengal, India",
