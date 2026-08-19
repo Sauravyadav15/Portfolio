@@ -153,16 +153,21 @@ const Experience: React.FC = () => {
       >
         <h2>Professional Summary</h2>
         <p>
-          My experience spans across web development, embedded systems, and social impact projects. 
-          I've worked on real-world applications, from full-stack web development with performance optimization 
-          to automotive software for Formula SAE racing. Each role has contributed to my growth as a 
-          technical professional and team collaborator.
+          My experience spans applied machine learning, backend security, full-stack web development,
+          embedded systems, and social impact work. As a Machine Learning Research Assistant, I build
+          computer vision pipelines end-to-end, from dataset collection and augmentation to training
+          PyTorch and TensorFlow models with YOLO and XGBoost. As a Software Developer on Queen's
+          EngSoc team, I designed a cookie-based OAuth2 authentication system with role-based access
+          control, backed by automated CI/CD testing and Docker deployments for a platform serving
+          5,000+ students.
         </p>
         <p>
-          I'm passionate about creating efficient, user-friendly solutions and continuously learning 
-          new technologies to stay current with industry trends. My diverse experience in both 
-          technical and social impact roles has given me a well-rounded perspective on how technology 
-          can be used to solve real-world problems.
+          Alongside this, I've shipped full-stack applications with performance optimization at
+          Bellurbis Technologies, contributed to automotive embedded systems for Queen's Racing
+          Formula SAE, and led socio-economic health assessments as a Social Impact Intern. Each role
+          has sharpened a different part of my technical range, and together they've given me a
+          well-rounded, systems-level perspective on how to build reliable technology that solves
+          real-world problems.
         </p>
       </motion.div>
     </div>
