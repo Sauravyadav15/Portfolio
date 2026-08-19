@@ -60,7 +60,7 @@ const Home: React.FC = () => {
           <p>Years Experience</p>
         </div>
         <div className="stat-card">
-          <h3>6</h3>
+          <h3>7</h3>
           <p>Projects Completed</p>
         </div>
         <div className="stat-card">
