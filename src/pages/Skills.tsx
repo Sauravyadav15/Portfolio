@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Code, Database, Cloud, Palette, Smartphone, Globe } from 'lucide-react';
+import { Code, Database, Cloud, Palette, Smartphone, Globe, Brain, Settings } from 'lucide-react';
 
 const Skills: React.FC = () => {
   const skillCategories = [
@@ -23,6 +23,7 @@ const Skills: React.FC = () => {
         { name: 'HTML/CSS', level: 80 },
         { name: 'Tailwind CSS', level: 45 },
         { name: 'JavaScript', level: 75 },
+        { name: 'Vite', level: 65 },
         { name: 'Responsive Design', level: 70 },
       ]
     },
@@ -32,9 +33,38 @@ const Skills: React.FC = () => {
       skills: [
         { name: 'Node.js', level: 70 },
         { name: 'Express.js', level: 65 },
+        { name: 'FastAPI', level: 60 },
         { name: 'REST API', level: 70 },
+        { name: 'OAuth2', level: 60 },
+        { name: 'JWT Auth', level: 65 },
+        { name: 'RBAC', level: 55 },
         { name: 'MongoDB', level: 55 },
+        { name: 'PostgreSQL', level: 55 },
         { name: 'Redis', level: 40 },
+      ]
+    },
+    {
+      title: 'Machine Learning & Computer Vision',
+      icon: <Brain size={24} />,
+      skills: [
+        { name: 'PyTorch', level: 60 },
+        { name: 'TensorFlow/Keras', level: 65 },
+        { name: 'YOLO (Ultralytics)', level: 65 },
+        { name: 'XGBoost', level: 60 },
+        { name: 'scikit-learn', level: 55 },
+        { name: 'Roboflow', level: 60 },
+        { name: 'OCR', level: 55 },
+      ]
+    },
+    {
+      title: 'DevOps & Testing',
+      icon: <Settings size={24} />,
+      skills: [
+        { name: 'Docker', level: 55 },
+        { name: 'GitHub Actions (CI/CD)', level: 55 },
+        { name: 'Jest', level: 60 },
+        { name: 'Supertest', level: 55 },
+        { name: 'Vercel', level: 65 },
       ]
     },
     {
@@ -137,7 +167,7 @@ const Skills: React.FC = () => {
           </div>
           <div className="learning-item">
             <h3>Computer Vision & AI</h3>
-            <p>Exploring OpenCV, facial emotion recognition, and deep learning for automated behavioral tracking and analytics</p>
+            <p>Building applied computer vision systems end-to-end, from data collection and augmentation to training YOLO detectors, CNN classifiers, and XGBoost models, and validating them against real hardware-captured imagery</p>
           </div>
         </div>
       </motion.div>

@@ -23,9 +23,45 @@ interface Project {
 
 const Projects: React.FC = () => {
   const [projects, setProjects] = useState<Project[]>([
-    
+
     {
       id: 1,
+      title: "Bill Splitter App",
+      description: "A full-stack expense-splitting app that lets groups scan a receipt and automatically divide the bill. Users photograph a receipt, a self-hosted OCR pipeline extracts the line items for manual review, and costs are distributed across group members while a greedy debt-simplification algorithm minimizes the number of settlement transactions needed. Built as two independently deployable apps (client + server) in one repository, with JWT-based authentication and full API documentation.",
+      technologies: ["React 19", "Vite", "Express 5", "PostgreSQL", "Node.js", "JWT Auth", "OCR"],
+      githubUrl: "https://github.com/Sauravyadav15/BillSplitterApp",
+      liveUrl: "https://bill-splitter-app-pied.vercel.app",
+      image: `${process.env.PUBLIC_URL}/images/bill-splitter-thumbnail.png`,
+      category: "Full Stack",
+      featured: true,
+      hasCode: true
+    },
+    {
+      id: 2,
+      title: "EngSoc Authentication Platform",
+      description: "Contributing as a Software Developer on the EngSoc Software Development Team at Queen's University, building the authentication backbone for a platform serving 5,000+ students. Designed and implemented a secure, cookie-based OAuth2 (Google) authentication system with server-side sessions and role-based access control, built and tested the login flows with Node.js/Express and Jest/Supertest integration tests reaching a 100% pass rate in CI, and dockerized the backend services with GitHub Actions CI/CD pipelines that cut manual deployment effort by roughly 60%.",
+      technologies: ["Node.js", "Express", "OAuth2", "Docker", "GitHub Actions", "Jest", "Supertest", "RBAC"],
+      githubUrl: "https://github.com/jack-fergusson/EngSoc-User-Center",
+      liveUrl: "",
+      image: `${process.env.PUBLIC_URL}/images/engsoc-thumbnail.png`,
+      category: "Backend",
+      featured: true,
+      hasCode: true
+    },
+    {
+      id: 3,
+      title: "AnangAI",
+      description: "An AI-powered concierge platform (KingstonAssist) that helps Kingston, ON residents discover local dining, shopping, and entertainment, while giving local businesses a structured onboarding pipeline to gain visibility. A conversational assistant answers natural-language questions about local businesses using a custom retrieval pipeline (intent detection + fuzzy keyword matching) paired with an LLM via OpenRouter, no vector database required. Features a bilingual English/French interface, a Green Plate sustainability certification system, and a business dashboard tracking Kingston's civic licensing requirements. Built at a Queen's University hackathon and deployed as a single Vercel instance serving the React frontend and a FastAPI backend via Mangum.",
+      technologies: ["React 19", "Vite", "FastAPI", "Python", "OpenRouter LLM API", "Vercel"],
+      githubUrl: "https://github.com/Sauravyadav15/AnangAI",
+      liveUrl: "https://anang-ai.vercel.app",
+      image: `${process.env.PUBLIC_URL}/images/anangai-thumbnail.png`,
+      category: "Full Stack",
+      featured: true,
+      hasCode: true
+    },
+    {
+      id: 4,
       title: "Portfolio Website",
       description: "A modern, responsive portfolio website built with React and TypeScript. Features include smooth animations, dark theme, active navigation highlighting, and responsive design. Demonstrates skills in modern web development and UI/UX design.",
       technologies: ["React", "TypeScript", "CSS3", "Framer Motion", "Responsive Design"],
@@ -37,7 +73,7 @@ const Projects: React.FC = () => {
       hasCode: true
     },
     {
-      id: 2,
+      id: 5,
       title: "PBKMS Trade Union Website",
       description: "Developed a comprehensive website for PBKMS (Paschim Banga Khet Majoor Samity), a trade union organization. Built a modern, responsive web application using React.js and Node.js. The website serves as a digital platform for the union's activities and information sharing.",
       technologies: ["React.js", "Node.js", "CSS", "JavaScript", "Web Development"],
@@ -74,7 +110,19 @@ const Projects: React.FC = () => {
     // },
     
   {
-    id: 3,
+    id: 7,
+    title: "Applied Computer Vision Research — Queen's University",
+    description: "Working as a Machine Learning Research Assistant at Queen's University on a confidential computer vision research project. Collected and prepared 1,500+ real-world images, including preprocessing, Roboflow-based labeling/annotation, and dataset quality checks, then expanded the training set to roughly 12,000 images using data augmentation to improve dataset diversity and model robustness. Trained deep learning models with PyTorch and TensorFlow on GPU infrastructure, tuning hyperparameters such as batch size and epoch count and implementing early stopping (patience of 20 epochs) to prevent overfitting and reduce unnecessary training time. Supported a multi-stage pipeline using YOLOv11 for object detection/cropping and XGBoost for downstream classification, achieving approximately 89.2% accuracy on available evaluation data.",
+    technologies: ["PyTorch", "TensorFlow", "YOLOv11", "XGBoost", "Roboflow", "Data Augmentation", "GPU Training"],
+    githubUrl: "",
+    liveUrl: "",
+    image: "https://via.placeholder.com/400x250/1a1a1a/00d4ff?text=Computer+Vision+Research",
+    category: "Machine Learning",
+    featured: true,
+    hasCode: false
+  },
+  {
+    id: 6,
     title: "KHacks — Chat & File Session Platform",
     description: "Full-stack project providing a chat/storytelling assistant and file/session management. Backend implemented with FastAPI + SQLite (chat history, sessions, file metadata, migration scripts) and integrations for Backboard and document indexing. Frontend is a Vite-based web client (TypeScript/JS + Tailwind) that communicates with the backend API.",
     technologies: ["Python", "FastAPI", "SQLite", "uvicorn", "TypeScript", "Vite", "Tailwind CSS", "JavaScript", "Backboard SDK", "llama-index"],
@@ -86,24 +134,24 @@ const Projects: React.FC = () => {
     hasCode: true
   },
 
-    {
-      id: 4,
-      title: "AMS Website Design",
-      description: "Designed wireframes and front page layout for AMS (Association of Management Students) website using Figma. Created user interface mockups focusing on modern design principles and improved user experience for the organization's digital presence.",
-      technologies: ["Figma", "UI/UX Design", "Wireframing", "Web Design", "Prototyping"],
-      githubUrl: "",
-      liveUrl: "https://www.figma.com/design/Vn1sVlEl53yO6nAwsRqjIr/AMS-frontpage?node-id=0-1&p=f&t=oDjm4hgq8bPF8O1i-0",
-      image: "https://www.myams.org/wp-content/themes/yootheme/cache/c4/AMS-Colour-White-Black-c484f0a7.webp",
-      category: "UI/UX Design",
-      featured: false,
-      hasCode: false
-    }
+    // {
+    //   id: 7,
+    //   title: "AMS Website Design",
+    //   description: "Designed wireframes and front page layout for AMS (Association of Management Students) website using Figma. Created user interface mockups focusing on modern design principles and improved user experience for the organization's digital presence.",
+    //   technologies: ["Figma", "UI/UX Design", "Wireframing", "Web Design", "Prototyping"],
+    //   githubUrl: "",
+    //   liveUrl: "https://www.figma.com/design/Vn1sVlEl53yO6nAwsRqjIr/AMS-frontpage?node-id=0-1&p=f&t=oDjm4hgq8bPF8O1i-0",
+    //   image: "https://www.myams.org/wp-content/themes/yootheme/cache/c4/AMS-Colour-White-Black-c484f0a7.webp",
+    //   category: "UI/UX Design",
+    //   featured: false,
+    //   hasCode: false
+    // }
   ]);
 
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
   const [filteredProjects, setFilteredProjects] = useState<Project[]>(projects);
 
-  const categories = ['All', 'Full Stack', 'Frontend', 'Backend', 'Embedded Systems', 'UI/UX Design', 'Data Analysis'];
+  const categories = ['All', 'Full Stack', 'Frontend', 'Backend', 'Machine Learning', 'Embedded Systems', 'UI/UX Design', 'Data Analysis'];
 
   // Fetch GitHub data for projects
   useEffect(() => {
