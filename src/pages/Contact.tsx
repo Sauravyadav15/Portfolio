@@ -73,8 +73,8 @@ const Contact: React.FC = () => {
     {
       icon: <Mail size={24} />,
       title: 'Email',
-      value: '23lp5@queensu.ca',
-      link: 'https://mail.google.com/mail/?view=cm&fs=1&to=23lp5@queensu.ca'
+      value: 'skyjnv124@gmail.com',
+      link: 'https://mail.google.com/mail/?view=cm&fs=1&to=skyjnv124@gmail.com'
     },
     {
       icon: <Phone size={24} />,
