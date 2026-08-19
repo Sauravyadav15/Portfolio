@@ -19,29 +19,28 @@ const Home: React.FC = () => {
           Computer Engineering Student & Web Developer
         </h2>
         <p className="hero-description">
-          Passionate about creating innovative solutions and building amazing web applications. 
-          Currently pursuing B.Tech in Computer Engineering with a focus on modern web technologies and AI.
+          I'm a Computer Engineering student at Queen's University who likes building things end-to-end from backend architecture to the model that powers a feature.
         </p>
         
         <div className="hero-buttons">
           <Link to="/projects" className="btn">
             View My Work
           </Link>
-          <a 
+          {/* <a 
             href="/Saurav_s_Resume_Jun.pdf" 
             download 
             className="btn btn-secondary"
           >
             <Download size={20} />
             Download Resume
-          </a>
+          </a> */}
         </div>
 
         <div className="social-links">
           <a href="https://github.com/Sauravyadav15" target="_blank" rel="noopener noreferrer">
             <Github size={24} />
           </a>
-          <a href="https://www.linkedin.com/in/saurabh-yadav-20b19b243/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/saurav-kumar-20b19b243/" target="_blank" rel="noopener noreferrer">
             <Linkedin size={24} />
           </a>
           <a href="https://mail.google.com/mail/?view=cm&fs=1&to=skyjnv124@gmail.com" target="_blank" rel="noopener noreferrer">
@@ -57,15 +56,15 @@ const Home: React.FC = () => {
         className="hero-stats"
       >
         <div className="stat-card">
-          <h3>1+</h3>
+          <h3>2+</h3>
           <p>Years Experience</p>
         </div>
         <div className="stat-card">
-          <h3>5</h3>
+          <h3>6</h3>
           <p>Projects Completed</p>
         </div>
         <div className="stat-card">
-          <h3>15+</h3>
+          <h3>43+</h3>
           <p>Technologies</p>
         </div>
       </motion.div>
