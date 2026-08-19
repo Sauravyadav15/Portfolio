@@ -39,7 +39,7 @@ const About: React.FC = () => {
             </div>
             <div className="info-item">
               <Mail size={20} />
-              <span>23lp5@queensu.ca</span>
+              <span>skyjnv124@gmail.com</span>
             </div>
             <div className="info-item">
               <Phone size={20} />
